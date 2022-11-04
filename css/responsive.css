@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   /* ----------------------------------
      Count Down
   ---------------------------------- */
@@ -26,7 +25,6 @@
 }
 
 @media only screen and (min-width: 991px) {
-
   body.vegas-container,
   body {
     overflow: hidden;
@@ -70,5 +68,11 @@
   .count-down {
     margin-left: -30px;
     margin-right: -30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .options img {
+    width: 340px;
+    margin-bottom: 10px;
   }
 }
