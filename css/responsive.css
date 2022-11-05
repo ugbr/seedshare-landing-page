@@ -76,3 +76,8 @@
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 470px) {
+  .btn-color {
+    margin-bottom: 10px;
+  }
+}
