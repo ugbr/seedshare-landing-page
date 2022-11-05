@@ -119,21 +119,24 @@
              write your email in newsletter-process.php and use:
              <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
              <form id="mc-form"> -->
-            <form id="mc-form">
-
+            <form 
+              id="mc-form"
+              action="https://formspree.io/f/mdojprbd"
+              method="POST"
+            >
               <input type="text" class="form-control form-control-custom" tabindex="-1"
                      id="text-field-nl" name="text-field-nl">
 
               <!-- Input Group -->
               <div class="input-group">
-                <input type="email" id="email" class="form-control form-control-light"
-                       name="email"
-                       placeholder="Enter your Email here...">
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-color"><i
-                        class="icon icon-sm icon-arrows-slim-right-dashed"></i>
-                    </button>
-                  </span>
+                  <input type="email" id="email" class="form-control form-control-light"
+                        name="email"
+                        placeholder="Enter your Email here...">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-color"><i
+                          class="icon icon-sm icon-arrows-slim-right-dashed"></i>
+                      </button>
+                    </span>
               </div>
               <!-- /End Input Group -->
 
@@ -325,7 +328,7 @@ Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй,
 
               <!-- Headline -->
               <div class="wrap-line border-dark">
-                <h3>Contact</h3>
+                <h3>Бидэнтэй холбогдох</h3>
               </div>
               <!-- /End Headline -->
 
@@ -336,48 +339,7 @@ Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй,
               </div>
               <!-- /End Description -->
 
-              <!-- Contact Form -->
-              <form action="php/contact-process.php" id="contact-form" method="post">
-
-                <input type="text" class="form-control form-control-custom" tabindex="-1"
-                       id="text-field" name="text-field">
-
-                <!-- Input Name -->
-                <div class="form-group" id="name-field">
-                  <label for="form-name" class="sr-only">Name</label>
-                  <input type="text" class="form-control form-control-dark"
-                         id="form-name" name="form-name" placeholder="Name">
-                </div>
-                <!-- /End Input Name -->
-
-                <!-- Input Email -->
-                <div class="form-group" id="email-field">
-                  <label for="form-email" class="sr-only">Email</label>
-                  <input type="email" class="form-control form-control-dark"
-                         id="form-email" name="form-email" placeholder="Email">
-                </div>
-                <!-- /End Input Email -->
-
-                <!-- Input Message -->
-                <div class="form-group" id="message-field">
-                  <label for="form-message" class="sr-only">Message</label>
-                                <textarea class="form-control form-control-dark" rows="1"
-                                          id="form-message" name="form-message"
-                                          placeholder="Message"></textarea>
-                </div>
-                <!-- /End Input Message -->
-
-                <!-- Submit Button -->
-                <div class="btn-row">
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-dark" role="button">
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-                <!-- /End Submit Button -->
-
-              </form>
+              
               <!-- /End Contact Form -->
 
               <!-- Arrow -->

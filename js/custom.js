@@ -1306,35 +1306,35 @@ $(document).ready(function () {
      Mail Chimp
      _____________________________________ */
 
-    var form = $('#mc-form');
+    // var form = $('#mc-form');
 
-    if (form.length) {
-      form.ajaxChimp({
-        callback: mailchimpCallback,
-        // Replace the URL above with your mailchimp URL (put your URL inside '').
-        url: ''
-      });
-    }
+    // if (form.length) {
+    //   form.ajaxChimp({
+    //     callback: mailchimpCallback,
+    //     // Replace the URL above with your mailchimp URL (put your URL inside '').
+    //     url: ''
+    //   });
+    // }
 
-    // callback function when the form submitted, show the notification box
-    function mailchimpCallback(resp) {
-      var messageContainer = $('#message-newsletter');
-      messageContainer.removeClass('error');
+    // // callback function when the form submitted, show the notification box
+    // function mailchimpCallback(resp) {
+    //   var messageContainer = $('#message-newsletter');
+    //   messageContainer.removeClass('error');
 
-      form.find('.form-group').removeClass('error');
-      if (resp.result === 'error') {
-        form.find('.input-group').addClass('error');
-        messageContainer.addClass('error');
-      } else {
-        form.find('.form-control').fadeIn().val('');
-      }
+    //   form.find('.form-group').removeClass('error');
+    //   if (resp.result === 'error') {
+    //     form.find('.input-group').addClass('error');
+    //     messageContainer.addClass('error');
+    //   } else {
+    //     form.find('.form-control').fadeIn().val('');
+    //   }
 
-      messageContainer.slideDown('slow', 'swing');
+    //   messageContainer.slideDown('slow', 'swing');
 
-      setTimeout(function () {
-        messageContainer.slideUp('slow', 'swing');
-      }, 10000);
-    }
+    //   setTimeout(function () {
+    //     messageContainer.slideUp('slow', 'swing');
+    //   }, 10000);
+    // }
 
 
     /* _____________________________________
