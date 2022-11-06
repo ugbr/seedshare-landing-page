@@ -1,489 +1,587 @@
-<!doctype html>
-<html>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no"
+      />
 
-  <!-- Title of Website -->
-  <title>Kounter – Coming Soon Landing Page</title>
+      <!-- Title of Website -->
+      <title>Seedshare</title>
+      <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon" />
+      <meta name="description" content="Coming Soon Landing Page" />
+      <meta
+        name="keywords"
+        content="Kounter, html theme, Coming Soon Landing Page, Coming Soon Landing Page template, html landing page, one page, responsive landing page"
+      />
+      <meta name="author" content="Egotype" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
 
-  <meta name="description"
-        content="Coming Soon Landing Page"/>
-  <meta name="keywords"
-        content="Kounter, html theme, Coming Soon Landing Page, Coming Soon Landing Page template, html landing page, one page, responsive landing page"/>
-  <meta name="author" content="Egotype">
+      <!-- Font Icons -->
+      <link rel="stylesheet" href="css/icons/font-awesome.css" />
+      <link rel="stylesheet" href="css/icons/linea.css" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <!-- Google Fonts -->
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700"
+      />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="css/plugins/loaders.min.css" />
+      <link rel="stylesheet" href="css/plugins/photoswipe.css" />
+      <link rel="stylesheet" href="css/icons/photoswipe/icons.css" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Gayathri&display=swap"
+        rel="stylesheet"
+      />
 
-  <!-- Font Icons -->
-  <link rel="stylesheet"
-        href="css/icons/font-awesome.css">
-  <link rel="stylesheet"
-        href="css/icons/linea.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Google Fonts -->
-  <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
+      <!-- Responsive CSS -->
+      <link href="css/responsive.css" rel="stylesheet" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".scrollspy" class="bg-dark">
+      <!-- HTML Canvas -->
+      <div id="raindrop" class="section-overlay">
+        <canvas id="rain"></canvas>
+      </div>
+      <!-- /End HTML Canvas -->
 
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="css/plugins/loaders.min.css">
-  <link rel="stylesheet" href="css/plugins/photoswipe.css">
-  <link rel="stylesheet" href="css/icons/photoswipe/icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+      <!-- Preloader  -->
+      <div class="loader bg-dark">
+        <div
+          class="loader-inner ball-scale-ripple-multiple ball-scale-ripple-multiple-color"
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <!-- /End Preloader  -->
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Responsive CSS -->
-  <link href="css/responsive.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body data-spy="scroll" data-target=".scrollspy" class="bg-dark">
-
-<!-- HTML Canvas -->
-<div id="raindrop" class="section-overlay">
-  <canvas id="rain"></canvas>
-</div>
-<!-- /End HTML Canvas -->
-
-<!-- Preloader  -->
-<div class="loader bg-dark">
-  <div class="loader-inner ball-scale-ripple-multiple ball-scale-ripple-multiple-color">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<!-- /End Preloader  -->
-
-<div id="page">
-  
-<!-- ============================
+      <div id="page">
+        <!-- ============================
      BG & Overlays
 ================================= -->
 
-<!-- Flat Surface Shader BG -->
-<!-- <div id="page-fss" class="section-overlay" data-ambient-color="#570087" data-diffuse-color="#e000ff"></div> -->
-<!-- /End Flat Surface Shader BG -->
+        <!-- Flat Surface Shader BG -->
+        <!-- <div id="page-fss" class="section-overlay" data-ambient-color="#570087" data-diffuse-color="#e000ff"></div> -->
+        <!-- /End Flat Surface Shader BG -->
 
-<!-- Overlay BG -->
-<div class="section-overlay bg-black overlay-opacity-2"></div>
-<!-- /End Overlay BG -->
+        <!-- Overlay BG -->
+        <div class="section-overlay bg-black overlay-opacity-2"></div>
+        <!-- /End Overlay BG -->
 
+        <!-- Modal -->
+        <div
+          id="modal-notify"
+          class="modal fade modal-scale"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="meinModalLabel"
+        >
+          <!-- .modal-dialog -->
+          <div class="modal-dialog" role="document">
+            <div>
+              <!-- .modal-content -->
+              <div class="modal-content text-center bg-dark text-light">
+                <button
+                  class="button-close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="icon icon-lg icon-arrows-remove"></i>
+                </button>
 
-  <!-- Modal -->
-  <div id="modal-notify" class="modal fade modal-scale" tabindex="-1" role="dialog"
-       aria-labelledby="meinModalLabel">
+                <!-- Headline -->
+                <div class="wrap-line border-dark">
+                  <h3><span class="font-weight-200">Stay</span> Tuned</h3>
+                </div>
+                <!-- /End Headline -->
 
-    <!-- .modal-dialog -->
-    <div class="modal-dialog" role="document">
-      <div>
+                <!-- Description -->
+                <div class="p-t-b-15">
+                  <p>
+                    Бид төсөл хүлээж авахад бэлэн болмогц танд имэйлээр
+                    мэдэгдье.<br />
+                    Inbox-оо харуулаад сууж байгаарай даа.
+                  </p>
+                </div>
+                <!-- /End Description -->
 
-        <!-- .modal-content -->
-        <div class="modal-content text-center bg-dark text-light">
-          <button class="button-close" data-dismiss="modal" aria-label="Close"><i
-              class="icon icon-lg icon-arrows-remove"></i></button>
-
-
-          <!-- Headline -->
-          <div class="wrap-line border-dark">
-            <h3><span class="font-weight-200">Stay</span> Tuned</h3>
-          </div>
-          <!-- /End Headline -->
-
-          <!-- Description -->
-          <div class="p-t-b-15">
-            <p>Бид төсөл хүлээж авахад бэлэн болмогц танд имэйлээр мэдэгдье.<br>
-              Inbox-оо харуулаад сууж байгаарай даа.</p>
-          </div>
-          <!-- /End Description -->
-
-          <div class="p-t-b-30">
-
-            <!-- Newsletter Form:
+                <div class="p-t-b-30">
+                  <!-- Newsletter Form:
              alternative newsletter form via email;
              write your email in newsletter-process.php and use:
              <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
              <form id="mc-form"> -->
-            <form id="mc-form">
+                  <form id="mc-form">
+                    <input
+                      type="text"
+                      class="form-control form-control-custom"
+                      tabindex="-1"
+                      id="text-field-nl"
+                      name="text-field-nl"
+                    />
 
-              <input type="text" class="form-control form-control-custom" tabindex="-1"
-                     id="text-field-nl" name="text-field-nl">
+                    <!-- Input Group -->
+                    <div class="input-group">
+                      <input
+                        type="email"
+                        id="email"
+                        class="form-control form-control-light"
+                        name="email"
+                        placeholder="Enter your Email here..."
+                      />
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-color">
+                          <i
+                            class="icon icon-sm icon-arrows-slim-right-dashed"
+                          ></i>
+                        </button>
+                      </span>
+                    </div>
+                    <!-- /End Input Group -->
 
-              <!-- Input Group -->
-              <div class="input-group">
-                <input type="email" id="email" class="form-control form-control-light"
-                       name="email"
-                       placeholder="Enter your Email here...">
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-color"><i
-                        class="icon icon-sm icon-arrows-slim-right-dashed"></i>
-                    </button>
-                  </span>
+                    <!-- Message Alert -->
+                    <div
+                      id="message-newsletter"
+                      class="message-wrapper text-white message"
+                    >
+                      <span
+                        ><i
+                          class="icon icon-sm icon-arrows-slim-right-dashed"
+                        ></i
+                        ><label class="message-text" for="email"></label
+                      ></span>
+                    </div>
+                    <!-- /End Message Alert -->
+                  </form>
+                  <!-- /End Newsletter Form -->
+                </div>
               </div>
-              <!-- /End Input Group -->
-
-              <!-- Message Alert -->
-              <div id="message-newsletter" class="message-wrapper text-white message">
-
-                <span><i class="icon icon-sm icon-arrows-slim-right-dashed"></i><label
-                    class="message-text" for="email"></label></span>
-              </div>
-              <!-- /End Message Alert -->
-
-            </form>
-            <!-- /End Newsletter Form -->
-
+            </div>
+            <!-- /End .modal-content -->
           </div>
+          <!-- /End .modal-dialog -->
         </div>
+        <!-- /End Modal -->
 
-      </div>
-      <!-- /End .modal-content -->
-    </div>
-    <!-- /End .modal-dialog -->
-  </div>
-  <!-- /End Modal -->
-
-  <!-- ============================
+        <!-- ============================
        Header Navigation
   ================================= -->
 
-  <header>
-    <nav class="navbar navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 text-white col-transform">
-            <div class="navbar-wrapper">
+        <header>
+          <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 text-white col-transform">
+                  <div class="navbar-wrapper">
+                    <!-- Navbar Button -->
+                    <button
+                      class="navbar-button show-info"
+                      data-href="#content"
+                    >
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button>
+                    <!-- /End Navbar Button -->
 
-              <!-- Navbar Button -->
-              <button class="navbar-button show-info" data-href="#content">
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-              <!-- /End Navbar Button -->
-
-              <!-- Navbar Links -->
-              <div class="navbar-links scrollspy">
-                <ul class="nav">
-                  <li><a class="smooth-scroll link-white" href="#about">About</a></li>
-                  <li><a class="smooth-scroll link-white" href="#contact">Contact</a></li>
-                </ul>
+                    <!-- Navbar Links -->
+                    <div class="navbar-links scrollspy">
+                      <ul class="nav">
+                        <li>
+                          <a class="smooth-scroll link-white" href="#about"
+                            >About</a
+                          >
+                        </li>
+                        <li>
+                          <a class="smooth-scroll link-white" href="#contact"
+                            >Contact</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /End Navbar Links -->
+                  </div>
+                </div>
               </div>
-              <!-- /End Navbar Links -->
-
             </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+          </nav>
+        </header>
 
-  <div class="container-fluid">
-    <div class="row">
-
-
-      <!-- ============================
+        <div class="container-fluid">
+          <div class="row">
+            <!-- ============================
            Info
       ================================= -->
 
-      <div id="info" class="col-md-12 text-white text-center page-info col-transform">
-        <div class="vert-middle">
-          <div class="reveal scale-out">
+            <div
+              id="info"
+              class="col-md-12 text-white text-center page-info col-transform"
+            >
+              <div class="vert-middle">
+                <div class="reveal scale-out">
+                  <!-- Count Down -->
+                  <div
+                    class="count-down p-t-b-15"
+                    data-end-date="Dec 25, 2022 00:00:00"
+                  ></div>
+                  <!-- /End Count Down -->
 
-            <!-- Count Down -->
-            <div class="count-down p-t-b-15" data-end-date="Dec 25, 2022 00:00:00">
-              </div>
-              <!-- /End Count Down -->
+                  <!-- Logo -->
+                  <div class="p-t-b-15 options">
+                    <!-- <img src="images/seedshare-logo.png" class="raindrop" height="86" width="500" alt=""> -->
+                    <img
+                      src="images/seedshare-logo.png"
+                      height="86"
+                      width="500"
+                      alt=""
+                    />
+                    <br />
+                    <h4>Everything you create matters</h4>
+                  </div>
 
-            <!-- Logo -->
-            <div class="p-t-b-15 options">
-              <!-- <img src="images/seedshare-logo.png" class="raindrop" height="86" width="500" alt=""> -->
-              <img src="images/seedshare-logo.png" height="86" width="500" alt="">
-              <br />
-              <h4>Everything you create matters</h4>
-            </div>
+                  <!-- /End Logo -->
 
-            <!-- /End Logo -->
+                  <div class="p-t-b-15">
+                    <!-- Headline & Description -->
+                    <h2><span class="font-weight-200">Тун удахгүй...</span></h2>
 
-            <div class="p-t-b-15">
-              <!-- Headline & Description -->
-              <h2><span class="font-weight-200">Тун удахгүй...</span></h2>
-
-              <!-- <p>We're coming soon! Awesome template to present your future product or service.<br>We're
+                    <!-- <p>We're coming soon! Awesome template to present your future product or service.<br>We're
                 working hard to give you the best experience!<br>
               </p> -->
-              <!-- /End Headline & Description -->
-            </div>
-            <!-- Arrow -->
-            <!-- <div class="p-t-b-20">
+                    <!-- /End Headline & Description -->
+                  </div>
+                  <!-- Arrow -->
+                  <!-- <div class="p-t-b-20">
               <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
             </div> -->
-            <!-- /End Arrow -->
+                  <!-- /End Arrow -->
 
-            <!-- Buttons -->
-            <div class="p-t-b-15 btn-row" id="options">
-              <button class="btn btn-color" data-toggle="modal"
+                  <!-- Buttons -->
+                  <div class="p-t-b-15 btn-row" id="options">
+                    <button
+                      class="btn btn-color"
+                      data-toggle="modal"
                       data-target="#modal-notify"
-                      role="button">И-мэйлээр мэдэгдэх
-              </button>
-              <a class="btn btn-border-white show-info"
-                 role="button" data-href="#content">
-                Дэлгэрэнгүй мэдээлэл
-              </a>
+                      role="button"
+                    >
+                      И-мэйлээр мэдэгдэх
+                    </button>
+                    <a
+                      class="btn btn-border-white show-info"
+                      role="button"
+                      data-href="#content"
+                    >
+                      Дэлгэрэнгүй мэдээлэл
+                    </a>
+                  </div>
+                  <!-- /End Buttons -->
+
+                  <!-- Social Media Links -->
+                  <div class="p-t-b-30">
+                    <p>
+                      <a
+                        href="https://www.facebook.com/seedshare.mn"
+                        class="link-white"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                      <a
+                        href="https://twitter.com/Seedshare_mn"
+                        class="link-white"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="https://plus.google.com" class="link-white"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </p>
+                  </div>
+                  <!-- Social Media Links -->
+                </div>
+              </div>
             </div>
-            <!-- /End Buttons -->
 
-            <!-- Social Media Links -->
-            <div class="p-t-b-30">
-              <p>
-                <a href="https://www.facebook.com/seedshare.mn" class="link-white"><i
-                    class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/Seedshare_mn" class="link-white"><i
-                    class="fa fa-twitter"></i></a>
-                <a href="https://plus.google.com" class="link-white"><i
-                    class="fa fa-instagram"></i></a>
-              </p>
-            </div>
-            <!-- Social Media Links -->
-
-          </div>
-        </div>
-      </div>
-
-
-      <!-- ============================
+            <!-- ============================
            Content
       ================================= -->
 
-      <div id="content" class="page-content col-md-6 text-center bg-white-09">
-
-        <!-- ----------------------------
+            <div
+              id="content"
+              class="page-content col-md-6 text-center bg-white-09"
+            >
+              <!-- ----------------------------
              About Section
         --------------------------------- -->
 
-        <section id="about" class="p-t-b-30">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+              <section id="about" class="p-t-b-30">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <!-- Headline -->
+                    <div class="wrap-line border-dark">
+                      <h3><span class="font-weight-200">Бидний тухай</span></h3>
+                    </div>
+                    <!-- /End Headline -->
 
-              <!-- Headline -->
-              <div class="wrap-line border-dark">
-                <h3><span class="font-weight-200">Бидний тухай</span></h3>
-              </div>
-              <!-- /End Headline -->
+                    <!-- Description -->
+                    <div class="p-t-b-15 text-grey">
+                      <h2><b>Seedshare гэж юу вэ?</b></h2>
+                      <br />
+                      Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан
+                      үр жимс болон боловсорч амжаагүй байгаа бүтээлч төслүүдийг
+                      дэмжин, зах зээлд хөл тавьж, дараагийн алхмаа хийхэд нь
+                      туслах зорилготой crowdfunding платформ юм.
+                      <br />
+                      Санаагаа бодит болгох гэж эдийн засгийн хүндхэн
+                      сорилтуудтай нүүр тулгарч, олон саад бэрхшээл
+                      туулалгүйгээр илүү хурдан, хялбар, цаг хугацаа хэмнэх
+                      технологийн шийдлийг бид санал болгож байна. Таны бүтээсэн
+                      бүхэн үнэ цэнтэй.
+                    </div>
+                    <!-- /End Description -->
 
-              <!-- Description -->
-              <div class="p-t-b-15 text-grey">
+                    <!-- Social Media Links -->
+                    <div class="p-t-b-15">
+                      <p>
+                        <a
+                          href="https://www.facebook.com/seedshare.mn"
+                          target="_blank"
+                        >
+                          <i class="fa fa-facebook"></i
+                        ></a>
+                        <a
+                          href="https://twitter.com/Seedshare_mn"
+                          target="_blank"
+                        >
+                          <i class="fa fa-twitter"></i
+                        ></a>
+                        <a
+                          href="https://www.instagram.com/egotype___design"
+                          target="_blank"
+                        >
+                          <i class="fa fa-instagram"></i
+                        ></a>
+                      </p>
+                    </div>
+                    <!-- /End Social Media Links -->
+                  </div>
+                </div>
+              </section>
 
-                <h2><b>Seedshare гэж юу вэ?</b></h2> <br/>
-Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан үр жимс болон боловсорч амжаагүй байгаа бүтээлч төслүүдийг дэмжин, зах зээлд хөл тавьж, дараагийн алхмаа хийхэд нь туслах зорилготой crowdfunding платформ юм.
-<br/>
-Санаагаа бодит болгох гэж эдийн засгийн хүндхэн сорилтуудтай нүүр тулгарч, олон саад бэрхшээл туулалгүйгээр илүү хурдан, хялбар, цаг хугацаа хэмнэх технологийн шийдлийг бид санал болгож байна. Таны бүтээсэн бүхэн үнэ цэнтэй.   
-
-              </div>
-              <!-- /End Description -->
-
-              <!-- Social Media Links -->
-              <div class="p-t-b-15">
-                <p>
-                  <a href="https://www.facebook.com/seedshare.mn" target="_blank">
-                    <i class="fa fa-facebook"></i></a>
-                  <a href="https://twitter.com/Seedshare_mn" target="_blank">
-                    <i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/egotype___design" target="_blank">
-                    <i class="fa fa-instagram"></i></a>
-                </p>
-              </div>
-              <!-- /End Social Media Links -->
-
-            </div>
-          </div>
-        </section>
-
-
-        <!-- ----------------------------
+              <!-- ----------------------------
              Contact Section
         --------------------------------- -->
 
-        <section id="contact" class="p-t-b-30">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+              <section id="contact" class="p-t-b-30">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <!-- Headline -->
+                    <div class="wrap-line border-dark">
+                      <h3>Contact</h3>
+                    </div>
+                    <!-- /End Headline -->
 
-              <!-- Headline -->
-              <div class="wrap-line border-dark">
-                <h3>Contact</h3>
-              </div>
-              <!-- /End Headline -->
+                    <!-- Description -->
+                    <div class="p-t-b-15 text-grey">
+                      <p>
+                        We launch our new website soon.<br />
+                        Please stay updated and follow.
+                      </p>
+                    </div>
+                    <!-- /End Description -->
 
-              <!-- Description -->
-              <div class="p-t-b-15  text-grey">
-                <p>We launch our new website soon.<br>
-                  Please stay updated and follow.</p>
-              </div>
-              <!-- /End Description -->
+                    <!-- Contact Form -->
+                    <form
+                      action="php/contact-process.php"
+                      id="contact-form"
+                      method="post"
+                    >
+                      <input
+                        type="text"
+                        class="form-control form-control-custom"
+                        tabindex="-1"
+                        id="text-field"
+                        name="text-field"
+                      />
 
-              <!-- Contact Form -->
-              <form action="php/contact-process.php" id="contact-form" method="post">
+                      <!-- Input Name -->
+                      <div class="form-group" id="name-field">
+                        <label for="form-name" class="sr-only">Name</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-dark"
+                          id="form-name"
+                          name="form-name"
+                          placeholder="Name"
+                        />
+                      </div>
+                      <!-- /End Input Name -->
 
-                <input type="text" class="form-control form-control-custom" tabindex="-1"
-                       id="text-field" name="text-field">
+                      <!-- Input Email -->
+                      <div class="form-group" id="email-field">
+                        <label for="form-email" class="sr-only">Email</label>
+                        <input
+                          type="email"
+                          class="form-control form-control-dark"
+                          id="form-email"
+                          name="form-email"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <!-- /End Input Email -->
 
-                <!-- Input Name -->
-                <div class="form-group" id="name-field">
-                  <label for="form-name" class="sr-only">Name</label>
-                  <input type="text" class="form-control form-control-dark"
-                         id="form-name" name="form-name" placeholder="Name">
-                </div>
-                <!-- /End Input Name -->
+                      <!-- Input Message -->
+                      <div class="form-group" id="message-field">
+                        <label for="form-message" class="sr-only"
+                          >Message</label
+                        >
+                        <textarea
+                          class="form-control form-control-dark"
+                          rows="1"
+                          id="form-message"
+                          name="form-message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <!-- /End Input Message -->
 
-                <!-- Input Email -->
-                <div class="form-group" id="email-field">
-                  <label for="form-email" class="sr-only">Email</label>
-                  <input type="email" class="form-control form-control-dark"
-                         id="form-email" name="form-email" placeholder="Email">
-                </div>
-                <!-- /End Input Email -->
+                      <!-- Submit Button -->
+                      <div class="btn-row">
+                        <div class="form-group">
+                          <button
+                            type="submit"
+                            class="btn btn-dark"
+                            role="button"
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                      <!-- /End Submit Button -->
+                    </form>
+                    <!-- /End Contact Form -->
 
-                <!-- Input Message -->
-                <div class="form-group" id="message-field">
-                  <label for="form-message" class="sr-only">Message</label>
-                                <textarea class="form-control form-control-dark" rows="1"
-                                          id="form-message" name="form-message"
-                                          placeholder="Message"></textarea>
-                </div>
-                <!-- /End Input Message -->
-
-                <!-- Submit Button -->
-                <div class="btn-row">
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-dark" role="button">
-                      Send Message
-                    </button>
+                    <!-- Arrow -->
+                    <div class="p-t-b-40">
+                      <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
+                    </div>
+                    <!-- /End Arrow -->
                   </div>
                 </div>
-                <!-- /End Submit Button -->
 
-              </form>
-              <!-- /End Contact Form -->
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 col-sm-12">
+                    <div class="row">
+                      <div class="col-sm-4 col-xs-6 p-t-b-5">
+                        <!-- Icon -->
+                        <div class="p-t-b-15">
+                          <i class="icon icon-lg icon-basic-geolocalize-01"></i>
+                        </div>
+                        <!-- /End Icon -->
 
-              <!-- Arrow -->
-              <div class="p-t-b-40">
-                <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
-              </div>
-              <!-- /End Arrow -->
+                        <!-- Address -->
+                        <div class="p-t-b-15">
+                          <h4>Address</h4>
 
+                          <p>
+                            45 Park Avenue,<br />
+                            New York, NY 10016
+                          </p>
+                        </div>
+                        <!-- /End Address -->
+                      </div>
+
+                      <div class="col-sm-4 col-xs-6 p-t-b-5">
+                        <!-- Icon -->
+                        <div class="p-t-b-15">
+                          <i class="icon icon-lg icon-basic-smartphone"></i>
+                        </div>
+                        <!-- /End Icon -->
+
+                        <!-- Address -->
+                        <div class="p-t-b-15">
+                          <h4>Direct</h4>
+
+                          <p>
+                            T. <a href="tel:012345678991"> 01 23 456 78 99 1</a
+                            ><br />
+                            M. <a href="tel:012345678991">01 23 456 78 99 2</a>
+                          </p>
+                        </div>
+                        <!-- /End Address -->
+                      </div>
+
+                      <div
+                        class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3 p-t-b-5"
+                      >
+                        <!-- Icon -->
+                        <div class="p-t-b-15">
+                          <i class="icon icon-lg icon-basic-globe"></i>
+                        </div>
+                        <!-- /End Icon -->
+
+                        <!-- Address -->
+                        <div class="p-t-b-15">
+                          <h4>Web</h4>
+
+                          <p>
+                            <a href="mailto:">info@kounter.com</a><br />
+                            <a href="">www.kounter.com</a>
+                          </p>
+                        </div>
+                        <!-- /End Address -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Contact Alert -->
+                <div
+                  id="message-contact"
+                  class="message-wrapper text-white message"
+                >
+                  <i class="icon icon-sm icon-arrows-slim-right-dashed"></i>
+                  <span class="message-text"></span>
+                </div>
+                <!-- /End Contact Alert -->
+              </section>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-sm-12">
-              <div class="row">
-                <div class="col-sm-4 col-xs-6 p-t-b-5">
-
-                  <!-- Icon -->
-                  <div class="p-t-b-15">
-                    <i class="icon icon-lg icon-basic-geolocalize-01"></i>
-                  </div>
-                  <!-- /End Icon -->
-
-                  <!-- Address -->
-                  <div class="p-t-b-15">
-                    <h4>Address</h4>
-
-                    <p>45 Park Avenue,<br>
-                      New York, NY 10016</p>
-                  </div>
-                  <!-- /End Address -->
-
-                </div>
-
-                <div class="col-sm-4 col-xs-6 p-t-b-5">
-
-                  <!-- Icon -->
-                  <div class="p-t-b-15">
-                    <i class="icon icon-lg icon-basic-smartphone"></i>
-                  </div>
-                  <!-- /End Icon -->
-
-                  <!-- Address -->
-                  <div class="p-t-b-15">
-                    <h4>Direct</h4>
-
-                    <p>T. <a href="tel:012345678991"> 01 23 456 78 99 1</a><br>
-                      M. <a href="tel:012345678991">01 23 456 78 99 2</a></p>
-                  </div>
-                  <!-- /End Address -->
-
-                </div>
-
-                <div class="col-sm-4  col-sm-offset-0 col-xs-6 col-xs-offset-3 p-t-b-5">
-
-                  <!-- Icon -->
-                  <div class="p-t-b-15">
-                    <i class="icon icon-lg icon-basic-globe"></i>
-                  </div>
-                  <!-- /End Icon -->
-
-                  <!-- Address -->
-                  <div class="p-t-b-15">
-                    <h4>Web</h4>
-
-                    <p><a href="mailto:">info@kounter.com</a><br>
-                      <a href="">www.kounter.com</a></p>
-                  </div>
-                  <!-- /End Address -->
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Contact Alert -->
-          <div id="message-contact" class="message-wrapper text-white message">
-            <i class="icon icon-sm icon-arrows-slim-right-dashed"></i>
-            <span class="message-text"></span>
-          </div>
-          <!-- /End Contact Alert -->
-
-        </section>
-
+        </div>
       </div>
-    </div>
-  </div>
+      <!-- /#page -->
+      <div id="photoswipe"></div>
 
-</div>
-<!-- /#page -->
-<div id="photoswipe"></div>
+      <!-- Scripts -->
+      <script src="js/plugins/jquery-1.12.4.min.js"></script>
+      <script src="js/plugins/bootstrap.min.js"></script>
+      <script src="js/plugins/scrollreveal.min.js"></script>
+      <script src="js/plugins/contact-form.js"></script>
+      <script src="js/plugins/newsletter-form.js"></script>
+      <script src="js/plugins/jquery.ajaxchimp.min.js"></script>
+      <script src="js/plugins/photoswipe/photoswipe.min.js"></script>
+      <script src="js/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+      <script src="js/plugins/raindrop.js"></script>
+      <script src="js/plugins/jquery.countdown.min.js"></script>
+      <script src="js/plugins/prefixfree.min.js"></script>
 
-<!-- Scripts -->
-<script src="js/plugins/jquery-1.12.4.min.js"></script>
-<script src="js/plugins/bootstrap.min.js"></script>
-<script src="js/plugins/scrollreveal.min.js"></script>
-<script src="js/plugins/contact-form.js"></script>
-<script src="js/plugins/newsletter-form.js"></script>
-<script src="js/plugins/jquery.ajaxchimp.min.js"></script>
-<script src="js/plugins/photoswipe/photoswipe.min.js"></script>
-<script src="js/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
-<script src="js/plugins/raindrop.js"></script>
-<script src="js/plugins/jquery.countdown.min.js"></script>
-<script src="js/plugins/prefixfree.min.js"></script>
-
-<!-- Custom Script -->
-<script src="js/custom.js"></script>
-
-</body>
+      <!-- Custom Script -->
+      <script src="js/custom.js"></script>
+    </body>
+  </html>
 </html>
