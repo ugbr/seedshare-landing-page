@@ -54,11 +54,11 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
     </head>
-    <body data-spy="scroll" data-target=".scrollspy" class="bg-dark">
+    <body data-spy="scroll" data-target=".scrollspy" class="bg-bubble-color">
       <!-- HTML Canvas -->
-      <div id="raindrop" class="section-overlay">
+      <!-- <div id="raindrop" class="section-overlay">
         <canvas id="rain"></canvas>
-      </div>
+      </div> -->
       <!-- /End HTML Canvas -->
 
       <!-- Preloader  -->
@@ -129,26 +129,37 @@
              write your email in newsletter-process.php and use:
              <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
              <form id="mc-form"> -->
-            <form 
-              id="mc-form"
-              action="https://formspree.io/f/mdojprbd"
-              method="POST"
-            >
-              <input type="text" class="form-control form-control-custom" tabindex="-1"
-                     id="text-field-nl" name="text-field-nl">
+                  <form
+                    id="mc-form"
+                    action="https://formspree.io/f/mdojprbd"
+                    method="POST"
+                  >
+                    <input
+                      type="text"
+                      class="form-control form-control-custom"
+                      tabindex="-1"
+                      id="text-field-nl"
+                      name="text-field-nl"
+                    />
 
-              <!-- Input Group -->
-              <div class="input-group">
-                  <input type="email" id="email" class="form-control form-control-light"
+                    <!-- Input Group -->
+                    <div class="input-group">
+                      <input
+                        type="email"
+                        id="email"
+                        class="form-control form-control-light"
                         name="email"
-                        placeholder="Enter your Email here...">
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn btn-color"><i
-                          class="icon icon-sm icon-arrows-slim-right-dashed"></i>
-                      </button>
-                    </span>
-              </div>
-              <!-- /End Input Group -->
+                        placeholder="Enter your Email here..."
+                      />
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-color">
+                          <i
+                            class="icon icon-sm icon-arrows-slim-right-dashed"
+                          ></i>
+                        </button>
+                      </span>
+                    </div>
+                    <!-- /End Input Group -->
 
                     <!-- Message Alert -->
                     <div
