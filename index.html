@@ -110,48 +110,88 @@
                     data-end-date="Dec 25, 2022 00:00:00"
                   ></div>
                   <!-- /End Count Down -->
-                  <div class="p-t-b-15">
-                    <!-- Headline & Description -->
-                    <h2>
-                      <span class="font-weight-200" style="color: #000"
-                        >Тун удахгүй...</span
-                      >
-                    </h2>
+                  
+                    <div class="p-t-b-15">
+                      <!-- Headline & Description -->
+                      <h2>
+                        <span class="font-weight-200" style="color: #000">
+                          Тун удахгүй...
+                        </span>
+                      </h2>
 
-                    <!-- <p>We're coming soon! Awesome template to present your future product or service.<br>We're
-                working hard to give you the best experience!<br>
-              </p> -->
-                    <!-- /End Headline & Description -->
-                  </div>
+                        <p class="text-font text-center" style="color: #000">
+                          Бид төсөл хүлээж авахад бэлэн болмогц танд имэйлээр
+                          мэдэгдье.<br />
+                          Inbox-оо харуулаад сууж байгаарай даа.
+                        </p>
+                    </div>
+
+                    <div class="p-l-r-500">
+                      <!-- Newsletter Form:
+                 alternative newsletter form via email;
+                 write your email in newsletter-process.php and use:
+                 <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
+                 <form id="mc-form"> -->
+                      <form
+                        id="mc-form"
+                        action="https://formspree.io/f/mdojprbd"
+                        method="POST"
+                      >
+                        <input
+                          type="text"
+                          class="form-control form-control-custom"
+                          tabindex="-1"
+                          id="text-field-nl"
+                          name="text-field-nl"
+                        />
+          
+                        <!-- Input Group -->
+                        <div class="input-group">
+                          <input
+                            type="email"
+                            id="email"
+                            class="form-control form-control-light"
+                            name="email"
+                            placeholder="Enter your Email here..."
+                          />
+                          <span class="input-group-btn">
+                            <button type="submit" class="btn btn-color">
+                              <i
+                                class="icon icon-sm icon-arrows-slim-right-dashed"
+                              ></i>
+                            </button>
+                          </span>
+                        </div>
+                        <!-- /End Input Group -->
+          
+                        <!-- Message Alert -->
+                        <div
+                          id="message-newsletter"
+                          class="message-wrapper text-white message"
+                        >
+                          <span
+                            ><i
+                              class="icon icon-sm icon-arrows-slim-right-dashed"
+                            ></i
+                            ><label class="message-text" for="email"></label
+                          ></span>
+                        </div>
+                        <!-- /End Message Alert -->
+                      </form>
+                      <!-- /End Newsletter Form -->
+                    </div>
                   <!-- Arrow -->
                   <!-- <div class="p-t-b-20">
               <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
             </div> -->
                   <!-- /End Arrow -->
-                  <!-- Social Media Links -->
-                  <div
-                    class="p-t-b-30"
-                    style="padding-right: 80px; padding-left: 80px"
-                  >
-                    <p class="media-links">
-                      <a href="https://www.facebook.com/seedshare.mn"
-                        ><i class="fa fa-facebook" style="color: #4267b2"></i
-                      ></a>
-                      <a href="https://twitter.com/Seedshare_mn"
-                        ><i class="fa fa-twitter" style="color: #00acee"></i
-                      ></a>
-                      <a href="https://plus.google.com"
-                        ><i class="fa fa-instagram" style="color: #5851db"></i
-                      ></a>
-                    </p>
-                  </div>
-                  <!-- Social Media Links -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!-- ============================
            Content
       ================================= -->
@@ -175,16 +215,24 @@ About Section
               <!-- Description -->
               <div class="p-t-b-15 text-grey">
                 <h2><b>Seedshare гэж юу вэ?</b></h2>
-                <br />
-                Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан үр
+                <h4>
+                  <p>
+                    <h4>
+                      Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан үр
                 жимс болон боловсорч амжаагүй байгаа бүтээлч төслүүдийг дэмжин,
                 зах зээлд хөл тавьж, дараагийн алхмаа хийхэд нь туслах
                 зорилготой crowdfunding платформ юм.
-                <br />
-                Санаагаа бодит болгох гэж эдийн засгийн хүндхэн сорилтуудтай
+                    </h4>
+                  </p>
+                  <p>
+                    <h4>
+                      Санаагаа бодит болгох гэж эдийн засгийн хүндхэн сорилтуудтай
                 нүүр тулгарч, олон саад бэрхшээл туулалгүйгээр илүү хурдан,
                 хялбар, цаг хугацаа хэмнэх технологийн шийдлийг бид санал болгож
                 байна. Таны бүтээсэн бүхэн үнэ цэнтэй.
+                    </h4>
+                  </p>
+                </h4>
               </div>
               <!-- /End Description -->
 
@@ -228,18 +276,9 @@ Contact Section
             <div class="col-sm-8 col-sm-offset-2">
               <!-- Headline -->
               <div class="wrap-line border-dark">
-                <h3>Contact</h3>
+                <h3>Холбогдох</h3>
               </div>
               <!-- /End Headline -->
-
-              <!-- Description -->
-              <div class="p-t-b-15 text-grey">
-                <p>
-                  We launch our new website soon.<br />
-                  Please stay updated and follow.
-                </p>
-              </div>
-              <!-- /End Description -->
             </div>
           </div>
 
@@ -255,7 +294,7 @@ Contact Section
 
                   <!-- Address -->
                   <div class="p-t-b-15">
-                    <h4>Address</h4>
+                    <h4>Хаяг</h4>
 
                     <p>
                       45 Park Avenue,<br />
@@ -274,7 +313,7 @@ Contact Section
 
                   <!-- Address -->
                   <div class="p-t-b-15">
-                    <h4>Direct</h4>
+                    <h4>Утас</h4>
 
                     <p>
                       T.
@@ -297,7 +336,7 @@ Contact Section
 
                   <!-- Address -->
                   <div class="p-t-b-15">
-                    <h4>Web</h4>
+                    <h4>И-мэйл</h4>
 
                     <p>
                       <a href="mailto:">info@kounter.com</a><br />

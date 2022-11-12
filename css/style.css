@@ -634,8 +634,8 @@ label.message-text {
    _____________________________________ */
 
 .vert-middle {
-  min-height: 700px;
-  height: 100%;
+  min-height: 500px;
+  height: 10%;
   align-items: center;
   display: flex;
 }
@@ -673,6 +673,11 @@ label.message-text {
 .p-t-b-50 {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.p-l-r-500 {
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .p-t-30 {
@@ -1170,10 +1175,10 @@ body.vegas-container > .vegas-slide {
    _____________________________________ */
 
 .page-info {
-  min-height: 700px;
-  height: 100%;
+  min-height: 200px;
+  height: 10%;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .sr .reveal {
