@@ -34,25 +34,9 @@
     overflow: scroll;
   }
 
-  header {
-    display: block;
-  }
-
-  .page-info {
-    padding-top: 60px;
-    position: fixed;
-  }
-
   .col-transform {
     transition: all 0.6s ease-in-out;
   }
-
-  /* .page-content {
-    position: absolute;
-    visibility: hidden;
-    right: -50%;
-    transition: all 0.6s ease-in-out;
-  } */
 
   .show-content .page-content {
     overflow: scroll;
