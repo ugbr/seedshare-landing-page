@@ -54,13 +54,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
     </head>
-    <body data-spy="scroll" data-target=".scrollspy" class="bg-bubble-color">
-      <!-- HTML Canvas -->
-      <!-- <div id="raindrop" class="section-overlay">
-        <canvas id="rain"></canvas>
-      </div> -->
-      <!-- /End HTML Canvas -->
-
+    <body data-spy="scroll" data-target=".scrollspy">
       <!-- Preloader  -->
       <div class="loader bg-dark">
         <div
@@ -72,182 +66,29 @@
         </div>
       </div>
       <!-- /End Preloader  -->
-
       <div id="page">
         <!-- ============================
      BG & Overlays
 ================================= -->
-
         <!-- Flat Surface Shader BG -->
         <!-- <div id="page-fss" class="section-overlay" data-ambient-color="#570087" data-diffuse-color="#e000ff"></div> -->
         <!-- /End Flat Surface Shader BG -->
 
         <!-- Overlay BG -->
-        <div class="section-overlay bg-black overlay-opacity-2"></div>
+        <!-- <div class="section-overlay bg-black overlay-opacity-2"></div> -->
         <!-- /End Overlay BG -->
-
-        <!-- Modal -->
-        <div
-          id="modal-notify"
-          class="modal fade modal-scale"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="meinModalLabel"
-        >
-          <!-- .modal-dialog -->
-          <div class="modal-dialog" role="document">
-            <div>
-              <!-- .modal-content -->
-              <div class="modal-content text-center bg-dark text-light">
-                <button
-                  class="button-close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <i class="icon icon-lg icon-arrows-remove"></i>
-                </button>
-
-                <!-- Headline -->
-                <div class="wrap-line border-dark">
-                  <h3><span class="font-weight-200">Stay</span> Tuned</h3>
-                </div>
-                <!-- /End Headline -->
-
-                <!-- Description -->
-                <div class="p-t-b-15">
-                  <p class="text-font">
-                    Бид төсөл хүлээж авахад бэлэн болмогц танд имэйлээр
-                    мэдэгдье.<br />
-                    Inbox-оо харуулаад сууж байгаарай даа.
-                  </p>
-                </div>
-                <!-- /End Description -->
-
-                <div class="p-t-b-30">
-                  <!-- Newsletter Form:
-             alternative newsletter form via email;
-             write your email in newsletter-process.php and use:
-             <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
-             <form id="mc-form"> -->
-                  <form
-                    id="mc-form"
-                    action="https://formspree.io/f/mdojprbd"
-                    method="POST"
-                  >
-                    <input
-                      type="text"
-                      class="form-control form-control-custom"
-                      tabindex="-1"
-                      id="text-field-nl"
-                      name="text-field-nl"
-                    />
-
-                    <!-- Input Group -->
-                    <div class="input-group">
-                      <input
-                        type="email"
-                        id="email"
-                        class="form-control form-control-light"
-                        name="email"
-                        placeholder="Enter your Email here..."
-                      />
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-color">
-                          <i
-                            class="icon icon-sm icon-arrows-slim-right-dashed"
-                          ></i>
-                        </button>
-                      </span>
-                    </div>
-                    <!-- /End Input Group -->
-
-                    <!-- Message Alert -->
-                    <div
-                      id="message-newsletter"
-                      class="message-wrapper text-white message"
-                    >
-                      <span
-                        ><i
-                          class="icon icon-sm icon-arrows-slim-right-dashed"
-                        ></i
-                        ><label class="message-text" for="email"></label
-                      ></span>
-                    </div>
-                    <!-- /End Message Alert -->
-                  </form>
-                  <!-- /End Newsletter Form -->
-                </div>
-              </div>
-            </div>
-            <!-- /End .modal-content -->
-          </div>
-          <!-- /End .modal-dialog -->
-        </div>
-        <!-- /End Modal -->
-
-        <!-- ============================
-       Header Navigation
-  ================================= -->
-
-        <header>
-          <nav class="navbar navbar-fixed-top">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12 text-white col-transform">
-                  <div class="navbar-wrapper">
-                    <!-- Navbar Button -->
-                    <button
-                      class="navbar-button show-info"
-                      data-href="#content"
-                    >
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </button>
-                    <!-- /End Navbar Button -->
-
-                    <!-- Navbar Links -->
-                    <div class="navbar-links scrollspy">
-                      <ul class="nav">
-                        <li>
-                          <a class="smooth-scroll link-white" href="#about"
-                            >About</a
-                          >
-                        </li>
-                        <li>
-                          <a class="smooth-scroll link-white" href="#contact"
-                            >Contact</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <!-- /End Navbar Links -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
 
         <div class="container-fluid">
           <div class="row">
             <!-- ============================
            Info
       ================================= -->
-
             <div
               id="info"
               class="col-md-12 text-white text-center page-info col-transform"
             >
               <div class="vert-middle">
                 <div class="reveal scale-out">
-                  <!-- Count Down -->
-                  <div
-                    class="count-down p-t-b-15"
-                    data-end-date="Dec 25, 2022 00:00:00"
-                  ></div>
-                  <!-- /End Count Down -->
-
                   <!-- Logo -->
                   <div class="p-t-b-15 options">
                     <!-- <img src="images/seedshare-logo.png" class="raindrop" height="86" width="500" alt=""> -->
@@ -258,14 +99,24 @@
                       alt=""
                     />
                     <br />
-                    <h4>Everything you create matters</h4>
+                    <h4 style="color: #000">Everything you create matters</h4>
                   </div>
-
                   <!-- /End Logo -->
 
+                  <!-- Count Down -->
+                  <div
+                    style="color: #000"
+                    class="count-down p-t-b-15"
+                    data-end-date="Dec 25, 2022 00:00:00"
+                  ></div>
+                  <!-- /End Count Down -->
                   <div class="p-t-b-15">
                     <!-- Headline & Description -->
-                    <h2><span class="font-weight-200">Тун удахгүй...</span></h2>
+                    <h2>
+                      <span class="font-weight-200" style="color: #000"
+                        >Тун удахгүй...</span
+                      >
+                    </h2>
 
                     <!-- <p>We're coming soon! Awesome template to present your future product or service.<br>We're
                 working hard to give you the best experience!<br>
@@ -277,42 +128,20 @@
               <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
             </div> -->
                   <!-- /End Arrow -->
-
-                  <!-- Buttons -->
-                  <div class="p-t-b-15 btn-row" id="options">
-                    <button
-                      class="btn btn-color"
-                      data-toggle="modal"
-                      data-target="#modal-notify"
-                      role="button"
-                    >
-                      И-мэйлээр мэдэгдэх
-                    </button>
-                    <a
-                      class="btn btn-border-white show-info"
-                      role="button"
-                      data-href="#content"
-                    >
-                      Дэлгэрэнгүй мэдээлэл
-                    </a>
-                  </div>
-                  <!-- /End Buttons -->
-
                   <!-- Social Media Links -->
-                  <div class="p-t-b-30">
-                    <p>
-                      <a
-                        href="https://www.facebook.com/seedshare.mn"
-                        class="link-white"
-                        ><i class="fa fa-facebook"></i
+                  <div
+                    class="p-t-b-30"
+                    style="padding-right: 80px; padding-left: 80px"
+                  >
+                    <p class="media-links">
+                      <a href="https://www.facebook.com/seedshare.mn"
+                        ><i class="fa fa-facebook" style="color: #4267b2"></i
                       ></a>
-                      <a
-                        href="https://twitter.com/Seedshare_mn"
-                        class="link-white"
-                        ><i class="fa fa-twitter"></i
+                      <a href="https://twitter.com/Seedshare_mn"
+                        ><i class="fa fa-twitter" style="color: #00acee"></i
                       ></a>
-                      <a href="https://plus.google.com" class="link-white"
-                        ><i class="fa fa-instagram"></i
+                      <a href="https://plus.google.com"
+                        ><i class="fa fa-instagram" style="color: #5851db"></i
                       ></a>
                     </p>
                   </div>
@@ -320,176 +149,174 @@
                 </div>
               </div>
             </div>
-
-            <!-- ============================
+          </div>
+        </div>
+      </div>
+      <!-- ============================
            Content
       ================================= -->
 
-            <div
-              id="content"
-              class="page-content col-md-6 text-center bg-white-09"
-            >
-              <!-- ----------------------------
-             About Section
-        --------------------------------- -->
+      <div id="content" class="page-content col-md-12 text-center bg-white-09">
+        <!-- ----------------------------
+About Section
+--------------------------------- -->
 
-              <section id="about" class="p-t-b-30">
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <!-- Headline -->
-                    <div class="wrap-line border-dark">
-                      <h3><span class="font-weight-200">Бидний тухай</span></h3>
-                    </div>
-                    <!-- /End Headline -->
+        <section id="about" class="p-t-b-30">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <!-- Headline -->
+              <div class="wrap-line border-dark">
+                <h3>
+                  <span class="font-weight-200">Бидний тухай</span>
+                </h3>
+              </div>
+              <!-- /End Headline -->
 
-                    <!-- Description -->
-                    <div class="p-t-b-15 text-grey text-font">
-                      <h2><b>Seedshare гэж юу вэ?</b></h2>
-                      <br />
-                      Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан
-                      үр жимс болон боловсорч амжаагүй байгаа бүтээлч төслүүдийг
-                      дэмжин, зах зээлд хөл тавьж, дараагийн алхмаа хийхэд нь
-                      туслах зорилготой crowdfunding платформ юм.
-                      <br />
-                      Санаагаа бодит болгох гэж эдийн засгийн хүндхэн
-                      сорилтуудтай нүүр тулгарч, олон саад бэрхшээл
-                      туулалгүйгээр илүү хурдан, хялбар, цаг хугацаа хэмнэх
-                      технологийн шийдлийг бид санал болгож байна. Таны бүтээсэн
-                      бүхэн үнэ цэнтэй.
-                    </div>
-                    <!-- /End Description -->
+              <!-- Description -->
+              <div class="p-t-b-15 text-grey">
+                <h2><b>Seedshare гэж юу вэ?</b></h2>
+                <br />
+                Seedshare нь дөнгөж хөрснөөс нахиалан ургаж буй, хараахан үр
+                жимс болон боловсорч амжаагүй байгаа бүтээлч төслүүдийг дэмжин,
+                зах зээлд хөл тавьж, дараагийн алхмаа хийхэд нь туслах
+                зорилготой crowdfunding платформ юм.
+                <br />
+                Санаагаа бодит болгох гэж эдийн засгийн хүндхэн сорилтуудтай
+                нүүр тулгарч, олон саад бэрхшээл туулалгүйгээр илүү хурдан,
+                хялбар, цаг хугацаа хэмнэх технологийн шийдлийг бид санал болгож
+                байна. Таны бүтээсэн бүхэн үнэ цэнтэй.
+              </div>
+              <!-- /End Description -->
 
-                    <!-- Social Media Links -->
-                    <div class="p-t-b-15">
-                      <p>
-                        <a
-                          href="https://www.facebook.com/seedshare.mn"
-                          target="_blank"
-                        >
-                          <i class="fa fa-facebook"></i
-                        ></a>
-                        <a
-                          href="https://twitter.com/Seedshare_mn"
-                          target="_blank"
-                        >
-                          <i class="fa fa-twitter"></i
-                        ></a>
-                        <a
-                          href="https://www.instagram.com/egotype___design"
-                          target="_blank"
-                        >
-                          <i class="fa fa-instagram"></i
-                        ></a>
-                      </p>
-                    </div>
-                    <!-- /End Social Media Links -->
-                  </div>
-                </div>
-              </section>
-
-              <!-- ----------------------------
-             Contact Section
-        --------------------------------- -->
-
-              <section id="contact" class="p-t-b-30">
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <!-- Headline -->
-                    <div class="wrap-line border-dark">
-                      <h3>Contact</h3>
-                    </div>
-                    <!-- /End Headline -->
-
-                    <!-- Description -->
-                    <div class="p-t-b-15 text-grey">
-                      <p class="text-font">
-                        We launch our new website soon.<br />
-                        Please stay updated and follow.
-                      </p>
-                    </div>
-                    <!-- /End Description -->
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-lg-10 col-lg-offset-1 col-sm-12">
-                    <div class="row">
-                      <div class="col-sm-4 col-xs-6 p-t-b-5">
-                        <!-- Icon -->
-                        <div class="p-t-b-15">
-                          <i class="icon icon-lg icon-basic-geolocalize-01"></i>
-                        </div>
-                        <!-- /End Icon -->
-
-                        <!-- Address -->
-                        <div class="p-t-b-15">
-                          <h4>Address</h4>
-
-                          <p class="text-font">
-                            45 Park Avenue,<br />
-                            New York, NY 10016
-                          </p>
-                        </div>
-                        <!-- /End Address -->
-                      </div>
-
-                      <div class="col-sm-4 col-xs-6 p-t-b-5">
-                        <!-- Icon -->
-                        <div class="p-t-b-15">
-                          <i class="icon icon-lg icon-basic-smartphone"></i>
-                        </div>
-                        <!-- /End Icon -->
-
-                        <!-- Address -->
-                        <div class="p-t-b-15">
-                          <h4>Direct</h4>
-
-                          <p class="text-font">
-                            T. <a href="tel:012345678991"> 01 23 456 78 99 1</a
-                            ><br />
-                            M. <a href="tel:012345678991">01 23 456 78 99 2</a>
-                          </p>
-                        </div>
-                        <!-- /End Address -->
-                      </div>
-
-                      <div
-                        class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3 p-t-b-5"
-                      >
-                        <!-- Icon -->
-                        <div class="p-t-b-15">
-                          <i class="icon icon-lg icon-basic-globe"></i>
-                        </div>
-                        <!-- /End Icon -->
-
-                        <!-- Address -->
-                        <div class="p-t-b-15">
-                          <h4>Web</h4>
-
-                          <p class="text-font">
-                            <a href="mailto:">info@kounter.com</a><br />
-                            <a href="">www.kounter.com</a>
-                          </p>
-                        </div>
-                        <!-- /End Address -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Contact Alert -->
-                <div
-                  id="message-contact"
-                  class="message-wrapper text-white message"
-                >
-                  <i class="icon icon-sm icon-arrows-slim-right-dashed"></i>
-                  <span class="message-text"></span>
-                </div>
-                <!-- /End Contact Alert -->
-              </section>
+              <!-- Social Media Links -->
+              <div class="p-t-b-15">
+                <p class="media-links">
+                  <a
+                    href="https://www.facebook.com/seedshare.mn"
+                    target="_blank"
+                    style="color: #4267b2"
+                  >
+                    <i class="fa fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/Seedshare_mn"
+                    target="_blank"
+                    style="color: #00acee"
+                  >
+                    <i class="fa fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/egotype___design"
+                    target="_blank"
+                    style="color: #5851db"
+                  >
+                    <i class="fa fa-instagram"></i
+                  ></a>
+                </p>
+              </div>
+              <!-- /End Social Media Links -->
             </div>
           </div>
-        </div>
+        </section>
+
+        <!-- ----------------------------
+Contact Section
+--------------------------------- -->
+
+        <section id="contact" class="p-t-b-30">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <!-- Headline -->
+              <div class="wrap-line border-dark">
+                <h3>Contact</h3>
+              </div>
+              <!-- /End Headline -->
+
+              <!-- Description -->
+              <div class="p-t-b-15 text-grey">
+                <p>
+                  We launch our new website soon.<br />
+                  Please stay updated and follow.
+                </p>
+              </div>
+              <!-- /End Description -->
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-sm-12">
+              <div class="row">
+                <div class="col-sm-4 col-xs-6 p-t-b-5">
+                  <!-- Icon -->
+                  <div class="p-t-b-15">
+                    <i class="icon icon-lg icon-basic-geolocalize-01"></i>
+                  </div>
+                  <!-- /End Icon -->
+
+                  <!-- Address -->
+                  <div class="p-t-b-15">
+                    <h4>Address</h4>
+
+                    <p>
+                      45 Park Avenue,<br />
+                      New York, NY 10016
+                    </p>
+                  </div>
+                  <!-- /End Address -->
+                </div>
+
+                <div class="col-sm-4 col-xs-6 p-t-b-5">
+                  <!-- Icon -->
+                  <div class="p-t-b-15">
+                    <i class="icon icon-lg icon-basic-smartphone"></i>
+                  </div>
+                  <!-- /End Icon -->
+
+                  <!-- Address -->
+                  <div class="p-t-b-15">
+                    <h4>Direct</h4>
+
+                    <p>
+                      T.
+                      <a href="tel:012345678991"> 01 23 456 78 99 1</a><br />
+                      M.
+                      <a href="tel:012345678991">01 23 456 78 99 2</a>
+                    </p>
+                  </div>
+                  <!-- /End Address -->
+                </div>
+
+                <div
+                  class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3 p-t-b-5"
+                >
+                  <!-- Icon -->
+                  <div class="p-t-b-15">
+                    <i class="icon icon-lg icon-basic-globe"></i>
+                  </div>
+                  <!-- /End Icon -->
+
+                  <!-- Address -->
+                  <div class="p-t-b-15">
+                    <h4>Web</h4>
+
+                    <p>
+                      <a href="mailto:">info@kounter.com</a><br />
+                      <a href="">www.kounter.com</a>
+                    </p>
+                  </div>
+                  <!-- /End Address -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Alert -->
+          <div id="message-contact" class="message-wrapper text-white message">
+            <i class="icon icon-sm icon-arrows-slim-right-dashed"></i>
+            <span class="message-text"></span>
+          </div>
+          <!-- /End Contact Alert -->
+        </section>
       </div>
       <!-- /#page -->
       <div id="photoswipe"></div>

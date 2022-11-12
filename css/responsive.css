@@ -34,6 +34,7 @@
     overflow: scroll;
   }
 
+<<<<<<< HEAD
   header {
     display: block;
   }
@@ -43,10 +44,13 @@
     position: fixed;
   }
 
+=======
+>>>>>>> origin/kaze
   .col-transform {
     transition: all 0.6s ease-in-out;
   }
 
+<<<<<<< HEAD
   .page-content {
     position: absolute;
     visibility: hidden;
@@ -54,6 +58,8 @@
     transition: all 0.6s ease-in-out;
   }
 
+=======
+>>>>>>> origin/kaze
   .show-content .page-content {
     overflow: scroll;
     position: absolute;
